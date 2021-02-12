@@ -1,4 +1,4 @@
-###Crud de tarefas
+### Crud Simples de tarefas com autenticação JWT
 Utiliza-se neste projeto **NestJs** para construção do back end e suas respecitvas rotas, **MongoDB** para armazenamento dos dados e estratégia de **JWT** para autenticação e validação do acesso as rotas.
 
 Foram criados inicialmente três módulos no NestJS: *auth, user, task*. O módulo Auth visa apenas autenticar e gerar o token de acesso. O módulo task (`/task`) e user (`/user`) possuem como objetivo disponibilização de trotas para operações básicas como: *criação, leitura, atualização e remoção*.
